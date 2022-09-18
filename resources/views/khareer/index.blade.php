@@ -324,7 +324,7 @@
                     </a>
                 </div>
                 <div class="col" >
-                    <a href="#khoahoc">
+                    <a href="#khoahocmobile">
                         <img id="image_about" src="{{ asset('khareer/khareer_3.png') }}" style="width:100%">
                     </a>
                 </div>
@@ -348,7 +348,7 @@
         </div>
 
  
-        <div class="container" id="khoahoc" style="margin-top:2rem ;" data-aos="fade-up" data-aos-anchor-placement="top-bottom" >
+        <div class="container" id="khoahocmobile" style="margin-top:2rem ;" data-aos="fade-up" data-aos-anchor-placement="top-bottom" >
             <div class="row">
                 <div class="col" >
                     <h3 style="font-size:18pt ; color: #C46A00; ">khóa học </h3>
