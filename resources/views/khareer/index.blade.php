@@ -329,7 +329,7 @@
                     </a>
                 </div>
                 <div class="col" >
-                    <a href="http://">
+                    <a href="{{ asset("/svit") }}">
                         <img id="image_about" src="{{ asset('khareer/khareer_4.png') }}" style="width:100%">
                     </a>
                 </div>
@@ -359,27 +359,29 @@
         <div class="container">
             <div class="row">
                 <div class="col" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                    <a href="http://">
+                    <a href="{{ asset("/khareersharing/english") }}">
                         <img id="image_about_mobile" src="{{ asset('khareer/khareer_5.png') }}" style="width:100%">
                     </a>
                 </div>
                 <div class="col" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                    <a href="{{ asset("/khareersharing/photo") }}">
                     <img id="image_about_mobile" src="{{ asset('khareer/khareer_6.png') }}"
                         style="width:100%; margin-top:-0.5rem">
-
+                    </a>
                 </div>
             </div>
          
             <div class="row" style="margin-top: 2rem">
                 <div class="col" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                    <a href="http://">
+                    <a href="{{ asset("/khareersharing/content") }}">
                         <img id="image_about_mobile" src="{{ asset('khareer/khareer_7.png') }}" style="width:100%">
                     </a>
                 </div>
                 <div class="col" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                    <a href="{{ asset("/khareersharing/it") }}">
                     <img id="image_about_mobile" src="{{ asset('khareer/khareer_8.png') }}"
                         style="width:100%; margin-top:-0.5rem">
-
+                    </a>
                 </div>
             </div>
         </div>
@@ -527,7 +529,7 @@
                     </a>
                 </div>
                 <div class="col" style="text-align: center">
-                    <a href="http://">
+                    <a href="{{ asset("/svit") }}">
                         <img id="image_about" src="{{ asset('khareer/khareer_4.png') }}" style="width:100%">
                     </a>
                 </div>
@@ -555,12 +557,12 @@
         <div class="container">
             <div class="row">
                 <div class="col" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                    <a href="http://">
+                    <a href="{{ asset("/khareersharing/english") }}">
                         <img id="image_about" src="{{ asset('khareer/khareer_5.png') }}" style="width:100%">
                     </a>
                 </div>
                 <div class="col" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                    <a href="http://">
+                    <a href="{{ asset("/khareersharing/photo") }}">
                     <img id="image_about" src="{{ asset('khareer/khareer_6.png') }}"
                         style="width:100%; margin-top:-2rem">
                     </a>
@@ -570,12 +572,12 @@
          
             <div class="row" style="margin-top: 5rem">
                 <div class="col" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                    <a href="http://">
+                    <a href="{{ asset("/khareersharing/content") }}">
                         <img id="image_about" src="{{ asset('khareer/khareer_7.png') }}" style="width:100%">
                     </a>
                 </div>
                 <div class="col" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                    <a href="http://">
+                    <a href="{{ asset("/khareersharing/it") }}">
                     <img id="image_about" src="{{ asset('khareer/khareer_8.png') }}"
                         style="width:100%; margin-top:-2rem">
                     </a>
