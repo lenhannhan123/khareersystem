@@ -16,6 +16,12 @@ class checklink
      */
     public function handle(Request $request, Closure $next)
     {
+        $domain =$_SERVER["HTTP_HOST"];
+        $path = $_SERVER["HTTP_HOST"];
+
+        // return redirect("https://www.google.com/");
+
+        dd($domain);
         return $next($request);
     }
 }
