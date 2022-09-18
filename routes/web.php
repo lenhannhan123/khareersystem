@@ -25,6 +25,18 @@ Route::get('/khareersharing/english', function () {
     return view('sharing.sharing-learningenlish');
 });
 
+Route::get('/khareersharing/it', function () {
+    return view('sharing.sharing-learningit');
+});
+
+Route::get('/khareersharing/content', function () {
+    return view('sharing.sharing-learningcontent');
+});
+
+Route::get('/khareersharing/photo', function () {
+    return view('sharing.sharing-learningphoto');
+});
+
 // Route::get('/sharing/english', function () {
 //     return view('sharing.svitindex');
 // });
