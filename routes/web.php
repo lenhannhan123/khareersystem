@@ -19,7 +19,7 @@ use Illuminate\Support\Facades\Route;
 
 
 
-Route::middleware([link::class])->group(function () {
+// Route::middleware([link::class])->group(function () {
     Route::get('/svit', function () {
         return view('svit.svitindex');
     });
@@ -49,4 +49,4 @@ Route::middleware([link::class])->group(function () {
     Route::get('/trang_chu', function () {
         return view('khareer.index');
     });
-});
+// });
